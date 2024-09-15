@@ -1,0 +1,61 @@
+body{max-height: 7000px;}
+
+body{
+	background-color: #e6cd6a;
+}
+
+.itemalignment{
+		display: flex;
+
+		justify-content: space-between;
+		margin-top: 30px;
+		text-align: left;
+		color: black;
+		font-family: fantasy;
+		font-size: 30px;
+	}
+
+	.HeaderStyling{
+	font-family: Impact, fantasy;
+	text-align: center;
+	font-size: 30px;
+}
+.hr{
+	border: solid;
+}
+.prices{
+		margin-left: 200px;
+	}
+	.itemalignment1{
+		display: flex;
+
+		justify-content: space-between;
+		margin-top: 30px;
+		text-align: left;
+		font-size: 20px;
+		font-family: fantasy;
+
+	}
+	p{
+		animation-name: blink;
+		animation-duration: 15s;
+		animation-iteration-count: infinite;
+
+
+
+	}
+	@keyframes blink{
+		0%{background-color: red;}
+		10% {background-color:rgba(35, 36, 35, 0.0) }
+		15%{background-color: red;}
+		25%{background-color: rgba(35, 36, 35, 0.0)}
+		35%{background-color: red;}
+		50% {background-color:rgba(35, 36, 35, 0.0) }
+		65% {background-color:red; }
+		
+		85%{background-color:rgba(35, 36, 35, 0.0) }
+
+		100%{background-color: red;}
+		
+	}
+	

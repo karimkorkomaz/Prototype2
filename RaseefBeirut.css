@@ -1,0 +1,64 @@
+body{
+	background-image:url("https://scontent.fbey14-1.fna.fbcdn.net/v/t39.30808-6/456865416_1061911225935610_8328457171442670991_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=B1Z6Pi74rjgQ7kNvgGz2AH1&_nc_ht=scontent.fbey14-1.fna&_nc_gid=AL5H0qdimIcRSFVnVaCfpGT&oh=00_AYDkAC6yY1F5EFXtqsYrm-RLMVrJmVgfazKrYV1vLKhi5w&oe=66E2167A") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	image-rendering: high-quality;
+
+
+
+
+
+
+
+}
+img:hover{
+	cursor: pointer;
+}
+.food{
+	position: absolute;
+	right: 20px;
+	width: 8%;
+	top: 85px;
+	
+}
+.cocktails{
+	position: absolute;
+	top: 110px;
+	width: 8%;
+	right: 180px;
+
+	
+	
+
+	
+
+
+}
+.p{
+	position: absolute;
+	top: 240px;
+	width: 8%;
+	right: 180px;
+	
+	font-family: fantasy;
+	
+
+
+}
+.Beverages{
+	position: absolute;
+	width: 8%;
+	top: 88px;
+	right: 330px;
+}
+.p1{
+	position: absolute;
+	top: 240px;
+	width: 8%;
+	right: 305px;
+	
+	font-family: fantasy;
+	
+
+
+}

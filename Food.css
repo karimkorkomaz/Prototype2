@@ -1,0 +1,26 @@
+body{max-height: 7000px;}{
+	
+
+}
+body{
+	background-color: #e6cd6a;
+	
+
+}
+	.itemalignment{
+		display: flex;
+
+		justify-content: space-between;
+		margin-top: 30px;
+		text-align: left;
+		color: black;
+	}
+
+	.HeaderStyling{
+	font-family: Impact, fantasy;
+	text-align: center;
+	font-size: 30px;
+}
+.hr{
+	border: solid;
+}
