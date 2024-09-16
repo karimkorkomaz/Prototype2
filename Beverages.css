@@ -1,0 +1,21 @@
+body{
+    background-color: #e6cd6a;
+}
+.itemalignment{
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+.prices{
+    margin-left: 200px;
+}
+.itemalignment1{
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+}
