@@ -26,8 +26,8 @@ div.food{
 .cocktails{
 	position: absolute;
 	top: 110px;
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+
 	right: 500px;
 
 	
