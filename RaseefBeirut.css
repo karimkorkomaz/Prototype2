@@ -16,60 +16,41 @@ body{
 img:hover{
 	cursor: pointer;
 }
-div.food{
-	position: absolute;
-	height: auto;
-
-
-	
+div.gallery {
+	margin: 5px;
+	border: 3px solid transparent;
+	float: left;
+	width: 180px;
 }
-.cocktails{
-	position: absolute;
-	top: 110px;
+div.gallery img {
 	width: 100%;
-
-	right: 500px;
-
-	
-	
-
-	
-
-
+	height: auto;
 }
-.p{
-	position: absolute;
-	top: 240px;
-	width: 8%;
-	right: 180px;
+
 	
-	font-family: fantasy;
+
+	
+
 	
 
 
-}
-.Beverages{
-	position: absolute;
-	width: 8%;
-	top: 88px;
-	right: 330px;
-}
-.p1{
-	position: absolute;
-	top: 240px;
-	width: 8%;
-	right: 305px;
-	
-	font-family: fantasy;
-	
 
 
-}
+
+
+
+
 div.desc {
 	font-family: fantasy;
 	padding: 15px;
 	text-align: center;
+	color: wheat;
 }
-@media screen {max-height: 700px;
-
+@media only screen and (max-width: 620px){
+	div.gallery, div.gallery img{
+		width: 130px;
+		float: right;
+		margin-top: 60px;
+		border: transparent;
+	}
 }
