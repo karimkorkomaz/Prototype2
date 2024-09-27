@@ -44,7 +44,8 @@ div.desc {
 	font-family: fantasy, solid;
 	padding: 0px;
 	text-align: center;
-	color: wheat;
+	color: white;
+	letter-spacing: -1px;
 
 
 }
