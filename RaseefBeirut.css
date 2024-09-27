@@ -48,9 +48,10 @@ div.desc {
 }
 @media only screen and (max-width: 620px){
 	div.gallery, div.gallery img{
-		width: 130px;
+		width: 90px;
 		float: right;
-		margin-top: 60px;
+		margin-top: 70px;
+
 		border: transparent;
 	}
 }
