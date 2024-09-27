@@ -41,7 +41,7 @@ div.gallery img {
 
 
 div.desc {
-	font-family: fantasy, solid;
+	font-family: fantasy, solid !important;
 	padding: 0px;
 	text-align: center;
 	color: white;
@@ -58,6 +58,6 @@ div.desc {
 		border: transparent;
 	}
 	div.desc{
-		font-family: fantasy, solid;
+		font-family: fantasy, solid !important;
 	}
 }
