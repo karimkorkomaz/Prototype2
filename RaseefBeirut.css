@@ -41,10 +41,12 @@ div.gallery img {
 
 
 div.desc {
-	font-family: fantasy;
+	font-family: fantasy, solid;
 	padding: 15px;
 	text-align: center;
 	color: wheat;
+
+
 }
 @media only screen and (max-width: 620px){
 	div.gallery, div.gallery img{
@@ -53,5 +55,8 @@ div.desc {
 		margin-top: 70px;
 
 		border: transparent;
+	}
+	div.desc{
+		font-family: fantasy, solid;
 	}
 }
