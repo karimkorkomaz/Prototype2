@@ -3,12 +3,13 @@ body{
 	background-size:cover ;
 	background-repeat: no-repeat;
 	image-rendering: high-quality;
+
 	height: 100%;
+
 	background-color: dimgray;
-
-
-
-
+	margin:0px;
+	padding: 0px;
+	background-position: center;
 
 
 
@@ -62,5 +63,13 @@ div.desc {
 		font-family:"Arial";
 
 		font-style: normal;
+	}
+	body{
+		background-attachment: fixed;
+		background-position: center center;
+		background-size:cover ;
+		width: unset;
+
+
 	}
 }
