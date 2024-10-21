@@ -54,8 +54,12 @@ div.desc {
 @media only screen and (max-width: 620px){
 	div.gallery, div.gallery img{
 		width: 90px;
-		float: right;
+		float: left;
 		margin-top: 70px;
+		display: block;
+
+
+
 
 		border: transparent;
 	}
@@ -63,6 +67,7 @@ div.desc {
 		font-family:"Arial";
 
 		font-style: normal;
+
 	}
 	body{
 		background-attachment: fixed;
