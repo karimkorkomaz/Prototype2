@@ -14,6 +14,50 @@ body{
 
 
 }
+/* From Uiverse.io by Voxybuns */
+
+button {
+	margin-top: 150px;
+	margin-left: 15px;
+	--button_radius: 0.75em;
+	--button_color: #e8be76;
+	--button_outline_color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	border-radius: var(--button_radius);
+	background: var(--button_outline_color);
+
+
+}
+
+.button_top {
+	display: block;
+	box-sizing: border-box;
+	border: 2px solid var(--button_outline_color);
+	border-radius: var(--button_radius);
+	padding: 0.75em ;
+	background: var(--button_color);
+	color: var(--button_outline_color);
+	transform: translateY(-0.2em);
+	transition: transform 0.1s ease;
+
+}
+a{
+	text-decoration: none;
+}
+
+button:hover .button_top {
+	/* Pull the button upwards when hovered */
+	transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+	/* Push the button downwards when pressed */
+	transform: translateY(0);
+}
+
 
 img:hover{
 	cursor: pointer;
@@ -51,30 +95,59 @@ div.desc {
 
 
 }
-@media only screen and (max-width: 620px){
-	div.gallery, div.gallery img{
-		width: 90px;
-		float: left;
-		margin-top: 70px;
+@media only screen and (max-width: 620px) {
+	button {
 		display: block;
+		justify-content: left;
+		text-align: left;
 
 
+		margin-left: 15px;
+		--button_radius: 0.75em;
+		--button_color: #e8be76;
+		--button_outline_color: #000000;
+		font-size: 17px;
+		font-weight: bold;
+		border: none;
+		cursor: pointer;
+		border-radius: var(--button_radius);
+		background: var(--button_outline_color);
 
-
-		border: transparent;
 	}
-	div.desc{
-		font-family:"Arial";
+
+	.distance {
+		margin-top: 240px;
+		position: absolute;
+	}
+
+	.distance1 {
+		margin-top: 320px;
+		position: absolute;
+		width: 130px;
+		text-align: left;
+		
+
+	}
+
+	.distance2 {
+		margin-top: 400px;
+		position: absolute;
+		left:-7px;
+	}
+
+	div.desc {
+		font-family: "Arial";
 
 		font-style: normal;
 
 	}
-	body{
+
+	body {
 		background-attachment: fixed;
 		background-position: center center;
-		background-size:cover ;
+		background-size: cover;
 		width: unset;
-
 
 	}
 }
+
